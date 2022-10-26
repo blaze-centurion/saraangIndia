@@ -156,7 +156,11 @@ const Index = () => {
 				className="section"
 				style={{ textAlign: "center", padding: "2rem 0" }}
 			>
-				<img src="/article.png" width="80%" />
+				<img
+					src="/article.png"
+					width="80%"
+					className={styles.articleImg}
+				/>
 			</div>
 			<SectionHeading title="Community SERVICE PROGRAMS" />
 

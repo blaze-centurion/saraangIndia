@@ -182,6 +182,9 @@
 	.programsSec {
 		width: 100%;
 	}
+	.articleImg {
+		width: 100%;
+	}
 }
 @media (max-width: 500px) {
 	.heroSections {
