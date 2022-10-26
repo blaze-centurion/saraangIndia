@@ -59,10 +59,10 @@ const Index = () => {
 			</div>
 
 			<SectionHeading title="What we do?" />
-			<div className="section" style={{ padding: "0 4rem" }}>
+			<div className={`section ${styles.work_container}`}>
 				<div className={styles.work_item}>
 					<img src="/what_we_do_1.png" width="150px" />
-					<div style={{ padding: "0 10px" }}>
+					<div style={{ padding: "10px" }}>
 						<h4 style={{ color: "#ff8a00" }}>JOURNALISM</h4>
 						<p>
 							We are India's Largest Student-run Journalism
@@ -160,7 +160,7 @@ const Index = () => {
 			</div>
 			<SectionHeading title="Community SERVICE PROGRAMS" />
 
-			<div className="section">
+			<div className={styles.programsSec}>
 				<div className={styles.program_box}>
 					<img src="/magazine.png" height="500px" />
 					<div>
@@ -203,7 +203,7 @@ const Index = () => {
 							adequate amends.
 						</p>
 					</div>
-					<img src="/mobile_app.png" />
+					<img src="/mobile_app.png" style={{ marginRight: 0 }} />
 				</div>
 			</div>
 

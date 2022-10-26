@@ -27,7 +27,7 @@
 	font-weight: 500;
 	margin-bottom: 1rem;
 }
-.content bold {
+.content b {
 	font-weight: 600;
 }
 .list {
@@ -39,4 +39,48 @@
 	font-family: "Poppins", sans-serif;
 	font-size: 15px;
 	font-weight: 500;
+}
+
+@media (max-width: 1000px) {
+	.founderContainer img {
+		width: 400px;
+	}
+
+	.content,
+	.list li {
+		max-width: 95%;
+	}
+}
+
+@media (max-width: 900px) {
+	.founderContainer {
+		flex-wrap: wrap;
+	}
+	.founderContainer img {
+		width: 500px;
+		margin: 0;
+	}
+	.founderContainer .card {
+		margin-bottom: 2rem;
+	}
+}
+@media (max-width: 580px) {
+	.founderContainer {
+		padding: 2rem 0;
+	}
+	.founderContainer .card {
+		width: 100%;
+	}
+	.founderContainer img {
+		width: 100%;
+	}
+}
+@media (max-width: 380px) {
+	.list {
+		margin-left: 15px;
+	}
+	.content {
+		/* display: block; */
+		padding: 5px;
+	}
 }

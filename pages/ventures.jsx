@@ -10,7 +10,11 @@ const Ventures = () => {
 			<SectionHeading title="Baatcheet app" color="#8c52ff" />
 			<div className="section">
 				<div className={styles.item}>
-					<img src="/ventures-img-1.png" width="220px" />
+					<img
+						src="/ventures-img-1.png"
+						width="220px"
+						className={styles.img}
+					/>
 					<div className={styles.item_content}>
 						<p>
 							Working on creating a fool-proof human mind reading
@@ -39,7 +43,11 @@ const Ventures = () => {
 			<SectionHeading title="noor ngo" color="#cb6ce6" />
 			<div className="section">
 				<div className={styles.item}>
-					<img src="/ventures-img-2.png" width="220px" />
+					<img
+						src="/ventures-img-2.png"
+						width="220px"
+						className={styles.img}
+					/>
 					<div className={styles.item_content}>
 						<p>
 							Noor. Qurbat. Muntazir. Without knowledge, the mind
@@ -64,7 +72,11 @@ const Ventures = () => {
 			<SectionHeading title="STUDENT SYNDICATE" color="#ff8a00" />
 			<div className="section">
 				<div className={styles.item}>
-					<img src="/ventures-img-3.png" width="220px" />
+					<img
+						src="/ventures-img-3.png"
+						width="220px"
+						className={styles.img}
+					/>
 					<div className={styles.item_content}>
 						<p>
 							Noor. Qurbat. Muntazir. Without knowledge, the mind
@@ -89,7 +101,11 @@ const Ventures = () => {
 			<SectionHeading title="Vanity Engine" color="#fa5300" />
 			<div className="section">
 				<div className={styles.item}>
-					<img src="/ventures-img-4.png" width="220px" />
+					<img
+						src="/ventures-img-4.png"
+						width="220px"
+						className={styles.img}
+					/>
 					<div className={styles.item_content}>
 						<p>
 							Noor. Qurbat. Muntazir. Without knowledge, the mind

@@ -17,14 +17,59 @@
 }
 
 .header {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding: 1rem 4rem;
 }
+.navbar_container {
+	position: relative;
+}
+.hamburger {
+	border: none;
+	outline: none;
+	background-color: transparent;
+	position: absolute;
+	top: 15px;
+	right: 0px;
+	display: none;
+}
+.dropdown_nav {
+	position: absolute;
+	top: 40px;
+	right: 10px;
+	display: block;
+	max-width: max-content;
+	min-width: 240px;
+	background-color: #fff;
+	box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+	padding: 10px 15px;
+	border-radius: 10px;
+	transform-origin: top right;
+	transform: scale(0);
+	transition: 0.2s;
+	z-index: 100;
+}
+.dropdown_nav.show {
+	transform: scale(1);
+}
+
+.dropdown_nav li {
+	list-style: none;
+	margin: 15px 0;
+}
+.dropdown_nav li a {
+	font-family: "Poppins", sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+}
 
 .logo {
-	width: 70%;
+	min-width: 900px;
 	height: 140px;
 }
 .navbar {
@@ -66,7 +111,9 @@
 	height: 15px;
 }
 .section_heading span.section_heading_span1 {
-	max-width: 20%;
+	max-width: 10%;
+	/* max-width: 300px; */
+	width: 100px;
 }
 .section_heading h3 {
 	font-family: "Staatliches", cursive;
@@ -148,4 +195,60 @@
 	color: #fff;
 	margin: 5px 0;
 	margin-left: 1rem;
+}
+
+@media (max-width: 1120px) {
+	.header {
+		padding: 1rem 0rem;
+	}
+	.logo {
+		min-width: auto;
+		width: 90%;
+		height: auto;
+	}
+	.section {
+		width: 90%;
+	}
+}
+
+@media (max-width: 1000px) {
+	.navbar {
+		display: none;
+	}
+	.hamburger {
+		display: block;
+	}
+	.navbar_container {
+		width: 90%;
+	}
+}
+@media (max-width: 900px) {
+	.footer {
+		padding: 2rem;
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+	.footer_icon_box {
+		margin-top: 2rem;
+	}
+}
+@media (max-width: 550px) {
+	.section_heading h3 {
+		font-size: 30px;
+	}
+	.section_heading span {
+		height: 7px;
+	}
+	.highlight-container {
+		max-width: 95%;
+		margin: 1.5rem 0;
+	}
+}
+@media (max-width: 390px) {
+	.section {
+		width: 95%;
+	}
+	.companyName {
+		font-size: 30px;
+	}
 }

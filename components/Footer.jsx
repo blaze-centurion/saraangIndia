@@ -3,7 +3,13 @@ const Footer = () => {
 		<div className="footer">
 			<div className="footer_item">
 				<h3 className="companyName">The SaarangIndia</h3>
-				<div style={{ display: "flex", alignItems: "center" }}>
+				<div
+					style={{
+						display: "flex",
+						alignItems: "center",
+						flexWrap: "wrap",
+					}}
+				>
 					<img src="/footer_logo.png" width="120px" />
 					<p className="footer_company_detail">
 						India's Largest Student-run Journalism Organisation.

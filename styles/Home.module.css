@@ -5,11 +5,6 @@
 		rgba(255, 255, 255, 1) 100%
 	);
 	padding: 4rem;
-	/* background: linear-gradient(
-		344deg,
-		rgba(0, 74, 173, 0.873265028667717) 25%,
-		rgba(255, 255, 255, 1) 100%
-	); */
 }
 
 .heroSectionsTitle {
@@ -61,7 +56,9 @@
 	margin: 0 10px;
 	text-transform: uppercase;
 }
-
+.work_container {
+	padding: 0 4rem;
+}
 .work_item {
 	display: flex;
 	align-items: center;
@@ -109,6 +106,10 @@
 	margin-bottom: 1rem;
 }
 
+.programsSec {
+	width: 80%;
+	margin: auto;
+}
 .program_box {
 	padding: 2rem 3rem;
 	display: flex;
@@ -126,5 +127,105 @@
 	font-size: 14.5px;
 	font-family: "Poppins", sans-serif;
 	font-weight: 500;
-	max-width: 70%;
+	max-width: 80%;
+}
+
+@media (max-width: 1200px) {
+	.program_box p {
+		max-width: 100%;
+	}
+	.programsSec {
+		width: 95%;
+	}
+}
+
+@media (max-width: 970px) {
+	.program_box {
+		flex-wrap: wrap;
+	}
+	.program_box img {
+		margin: 2rem 0;
+	}
+}
+@media (max-width: 890px) {
+	.followedItemBox {
+		padding: 0;
+	}
+	.followedItemBox span {
+		font-size: 50px;
+	}
+	.heroSectionsBanner {
+		margin-top: 2rem;
+	}
+	.heroSections {
+		padding: 4rem 2rem;
+	}
+}
+@media (max-width: 740px) {
+	.followedItemBox {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.followedItemBox > p {
+		margin: 1rem 10px;
+	}
+	.followedItemBox span {
+		margin-top: 10rem;
+		margin-bottom: 10rem;
+	}
+	.followedItemBox span + p {
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+	.work_container {
+		padding: 0 1rem;
+	}
+	.programsSec {
+		width: 100%;
+	}
+}
+@media (max-width: 500px) {
+	.heroSections {
+		padding: 4rem 0;
+	}
+	.followedBoxTitle {
+		font-size: 50px;
+	}
+	.followedItemBox {
+		grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+	}
+	.work_container {
+		padding: 0 6px;
+	}
+	.work_item {
+		flex-wrap: wrap;
+		padding: 10px;
+	}
+	.work_item img {
+		margin: 1rem auto;
+	}
+	.program_box img {
+		width: 100%;
+		height: auto;
+	}
+	.program_box {
+		padding: 2rem 10px;
+	}
+}
+@media (max-width: 390px) {
+	.program_box h3 {
+		font-size: 40px;
+	}
+	.heroSections .heroSectionsTitle {
+		font-size: 50px;
+	}
+	.heroSections p {
+		font-size: 15px;
+	}
+	.followedItemBox {
+		padding: 0;
+		text-align: center;
+	}
+	.followedItemBox > div {
+		margin-top: 1rem;
+	}
 }

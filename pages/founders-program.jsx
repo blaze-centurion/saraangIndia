@@ -32,15 +32,15 @@ const FoundersProgram = () => {
 			<div className="section">
 				<HighlightedTitle title="Launch your own start-up WITH ZERO RISK FOR FREE" />
 				<p className={styles.content}>
-					<bold>Founders' Program</bold> will support you in all ways
-					to make sure that your start-up idea reaches it's
-					functioning stage. From finding a founding team to marketing
-					and operations, we will be with you every step of the way so
+					<b>Founders' Program</b> will support you in all ways to
+					make sure that your start-up idea reaches it's functioning
+					stage. From finding a founding team to marketing and
+					operations, we will be with you every step of the way so
 					that you do not face the risk of failure.
 					<br /> <br />
 					Furthermore,{" "}
-					<bold>we will provide your employees with incentives</bold>,
-					so not just zero risk but this is also a zero investment
+					<b>we will provide your employees with incentives</b>, so
+					not just zero risk but this is also a zero investment
 					program. We are capable of building NGOs, Student
 					Organisations, Small Businesses, Consulting Services,
 					Tertiary Services, Tech/EdTech/MedTech/PsyTech Start-ups and
@@ -48,18 +48,18 @@ const FoundersProgram = () => {
 					<br /> <br />
 					In easy words, if you have zero experience in making an
 					organisation, we will do it for you or{" "}
-					<bold>if you already have an organisation</bold>, we will
-					expand it however you vision.
+					<b>if you already have an organisation</b>, we will expand
+					it however you vision.
 				</p>
 				<HighlightedTitle title="Have rights over the organisation we help you make" />
 				<p className={styles.content}>
 					Even though we help you make the organisation, we will not
 					control your decisions on how it should be operated, and as
 					trustworthy our reputation is,{" "}
-					<bold>
+					<b>
 						we will deliver you the foundations on which you can
 						manage the operations.
-					</bold>{" "}
+					</b>{" "}
 					Your organisation/company is yours, it will only be a part
 					of TSI CIRCUIT so that all the student community can move
 					forward hand-in-hand and the collaboration is much easier.
@@ -67,8 +67,8 @@ const FoundersProgram = () => {
 
 				<HighlightedTitle title="How long will it take?" />
 				<p className={styles.content}>
-					<bold>The SaarangIndia Incubation Team</bold> works day and
-					night to ensure exceptional results.
+					<b>The SaarangIndia Incubation Team</b> works day and night
+					to ensure exceptional results.
 				</p>
 				<ul className={styles.list}>
 					<li>NGO or NPO or Social Service Org - 14 Days</li>
@@ -87,7 +87,7 @@ const FoundersProgram = () => {
 				<HighlightedTitle title="How to get started?" />
 				<p className={styles.content}>
 					We are working on the website forms, till then,{" "}
-					<bold>kindly mail us</bold> at indiasaarang@gmail.com the
+					<b>kindly mail us</b> at indiasaarang@gmail.com the
 					following details,
 				</p>
 				<ul className={styles.list}>

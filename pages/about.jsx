@@ -8,8 +8,13 @@ const About = () => {
 			<div className={styles.aboutSection}>
 				<h3 className={styles.sectionTitle}>About Us</h3>
 				<div className={`section ${styles.aboutContainer}`}>
-					<div className={styles.imageContainer}>
-						<div style={{ position: "relative" }}>
+					<div
+						className={`${styles.aboutImgCont} ${styles.imageContainer}`}
+					>
+						<div
+							style={{ position: "relative" }}
+							className={styles.aboutImgBox}
+						>
 							<img
 								src="/aboutImg1.png"
 								width="350px"
@@ -47,10 +52,7 @@ const About = () => {
 			</div>
 			<div style={{ background: "var(--dark-gray)", padding: "4rem 0" }}>
 				<div className={`section ${styles.aboutContainer}`}>
-					<div
-						className={styles.content}
-						style={{ marginLeft: "5rem" }}
-					>
+					<div className={`${styles.content} ${styles.instaContent}`}>
 						<p>
 							We are known for our unique illustration and design
 							of articles and media. The trendy and eye-catching
@@ -64,21 +66,27 @@ const About = () => {
 							2,300 followers and a reach of 27,000 users.
 						</p>
 					</div>
-					<div className={styles.imageContainer}>
-						<div style={{ position: "relative" }}>
-							<img src="/insta.png" />
+					<div className={`${styles.imageContainer}`}>
+						<div
+							style={{ position: "relative" }}
+							className={styles.imgBox}
+						>
+							<img src="/insta.png" className={styles.instaImg} />
 						</div>
 					</div>
 				</div>
 			</div>
 			<div style={{ background: "var(--primary)", padding: "4rem 0" }}>
 				<div className={`section ${styles.aboutContainer}`}>
-					<div
-						className={styles.imageContainer}
-						style={{ marginLeft: 0 }}
-					>
-						<div style={{ position: "relative" }}>
-							<img src="/aboutImg4.png" />
+					<div className={styles.imageContainer}>
+						<div
+							style={{ position: "relative" }}
+							className={styles.imgBox}
+						>
+							<img
+								src="/aboutImg4.png"
+								className={styles.newsImg}
+							/>
 						</div>
 					</div>
 					<div className={styles.content}>

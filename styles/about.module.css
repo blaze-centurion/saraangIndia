@@ -1,7 +1,6 @@
 .aboutSection {
 	background: var(--primary);
 	margin-top: 3rem;
-	/* padding: 1rem 6rem; */
 	padding: 1.5rem;
 }
 .aboutContainer {
@@ -15,6 +14,7 @@
 	font-family: "Bebas Neue", cursive;
 	text-transform: uppercase;
 	font-size: 118px;
+	font-weight: 500;
 	color: #fff;
 }
 
@@ -43,17 +43,116 @@
 	margin-top: 2rem;
 }
 
+.instaContent {
+	margin-left: 5rem;
+}
+
 .galleryContainer {
 	background-image: url("../public/about_bg.png");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: 100% 100%;
 	padding: 4rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 .galleryContainer .galleryBox {
-	max-width: 70%;
+	max-width: 80%;
 	margin: auto;
 	text-align: center;
+}
+
+@media (max-width: 1200px) {
+	.aboutSection {
+		padding: 1.5rem 0;
+	}
+	.imageContainer {
+		margin-left: 1rem;
+	}
+	.imageContainer.aboutImgCont img {
+		width: 270px;
+		height: 270px;
+	}
+	.instaContent {
+		margin-left: 0rem;
+	}
+	.instaImg {
+		width: 300px;
+	}
+	.newsImg {
+		width: 450px;
+	}
+	.galleryContainer .galleryBox {
+		max-width: 100%;
+		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	}
+	.galleryContainer {
+		padding: 4rem 2rem;
+	}
+	.galleryContainer .galleryBox img {
+		width: 100%;
+	}
+}
+@media (max-width: 900px) {
+	.aboutContainer {
+		flex-wrap: wrap;
+	}
+	.aboutImgBox {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 1.5rem 0;
+		width: 100%;
+	}
+	.imgBox {
+		width: 100%;
+		text-align: center;
+	}
+	.instaImg {
+		width: 400px;
+		margin-top: 3rem;
+	}
+	.newsImg {
+		width: 600px;
+	}
+	.sectionTitle {
+		font-size: 100px;
+	}
+}
+@media (max-width: 680px) {
+	.newsImg {
+		width: 100%;
+	}
+	.instaImg {
+		width: 90%;
+		margin-top: 3rem;
+	}
+}
+
+@media (max-width: 550px) {
+	.sectionTitle {
+		font-size: 80px;
+	}
+
+	.imageContainer.aboutImgCont img {
+		width: 200px;
+		height: 200px;
+	}
+	.content h3 {
+		font-size: 40px;
+		padding: 0 10px;
+	}
+	.content p {
+		font-size: 16px;
+		padding: 0 10px;
+	}
+}
+@media (max-width: 370px) {
+	.galleryContainer .galleryBox {
+		grid-template-columns: 1fr;
+	}
+	.galleryContainer {
+		padding: 3rem 10px;
+	}
 }

@@ -17,3 +17,28 @@
 .item .item_content .social img {
 	margin-right: 10px;
 }
+
+@media (max-width: 750px) {
+	.item .item_content {
+		max-width: 100%;
+		margin-left: 1em;
+	}
+	.item {
+		padding: 2rem 0;
+	}
+}
+
+@media (max-width: 640px) {
+	.item {
+		flex-wrap: wrap;
+	}
+	.item .item_content {
+		margin-top: 2rem;
+	}
+}
+@media (max-width: 380px) {
+	.img {
+		width: 60%;
+		margin-left: 1rem;
+	}
+}
