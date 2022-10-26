@@ -1,0 +1,19 @@
+.item {
+	display: flex;
+	align-items: center;
+	padding: 2rem 2rem;
+}
+.item .item_content {
+	max-width: 60%;
+	margin-left: 3rem;
+	font-family: "Poppins", sans-serif;
+	font-size: 15px;
+}
+
+.item .item_content .social {
+	margin-top: 10px;
+}
+
+.item .item_content .social img {
+	margin-right: 10px;
+}
