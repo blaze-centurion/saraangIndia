@@ -65,7 +65,7 @@ const Index = () => {
 					<div style={{ padding: "10px" }}>
 						<h4 style={{ color: "#ff8a00" }}>JOURNALISM</h4>
 						<p>
-							We are India's Largest Student-run Journalism
+							We are India&apos;s Largest Student-run Journalism
 							Organisation. We produce original, unbiased and
 							well-illustrated NEWS for teens, by teens. We have
 							published over 100 articles and have interacted with
@@ -81,9 +81,9 @@ const Index = () => {
 							NOOR NGO is a social-service venture by TSI. Our
 							teams in Mumbai have conducted 10+ community service
 							drives as well as raised over 50,000 in a fundraiser
-							for THH NGO. It is The SaarangIndia's responsibility
-							to sometimes step in the societal reform revolution
-							and not just report it.
+							for THH NGO. It is The SaarangIndia&apos;s
+							responsibility to sometimes step in the societal
+							reform revolution and not just report it.
 						</p>
 					</div>
 				</div>
@@ -177,12 +177,13 @@ const Index = () => {
 							women in Cannaught Place as it is one of the
 							landmarks of New Delhi and a village in Gurgaon. We
 							also conducted a research study in collaboration
-							with Gouri Mehra's 'In the Write Mind', and created
-							a TV Commercial and many illustrative videos
-							explaining the crisis on the net. These kits were
-							also made by female entrepreneurs from 'Flowpads'
-							and the project was recognised by the CM Office of
-							New Delhi.
+							with Gouri Mehra&apos;s &apos;In the Write
+							Mind&apos;, and created a TV Commercial and many
+							illustrative videos explaining the crisis on the
+							net. These kits were also made by female
+							entrepreneurs from &apos;Flowpads&apos; and the
+							project was recognised by the CM Office of New
+							Delhi.
 						</p>
 					</div>
 				</div>

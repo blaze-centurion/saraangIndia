@@ -18,14 +18,15 @@ const Ventures = () => {
 					<div className={styles.item_content}>
 						<p>
 							Working on creating a fool-proof human mind reading
-							algorithm that clearly captures a person's mental
-							capacity and whatever problem they must be facing
-							with their Significant Other, Friend, Parent, etc.
-							and based on that provide holistic and fun
+							algorithm that clearly captures a person&apos;s
+							mental capacity and whatever problem they must be
+							facing with their Significant Other, Friend, Parent,
+							etc. and based on that provide holistic and fun
 							activities that help strengthen the bond. Coming
 							from a conservative Indian family, I can understand
 							how far away can one be while being so close
-							together; Let's eradicate those 'Dooriyan'. <br />
+							together; Let&apos;s eradicate those
+							&apos;Dooriyan&apos;. <br />
 							<br />
 							We also collect the data for each user, actively
 							creating a working mind map. The future applications

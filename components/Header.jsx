@@ -59,7 +59,9 @@ const Header = () => {
 								: ""
 						}
 					>
-						<Link href="/founders-program">Founders' Program</Link>
+						<Link href="/founders-program">
+							Founders&apos; Program
+						</Link>
 					</li>
 					<li className={router.asPath === "#" ? "active" : ""}>
 						<Link href="#">Join Us</Link>
@@ -94,7 +96,9 @@ const Header = () => {
 								: ""
 						}
 					>
-						<Link href="/founders-program">Founders' Program</Link>
+						<Link href="/founders-program">
+							Founders&apos; Program
+						</Link>
 					</li>
 					<li className={router.asPath === "#" ? "active" : ""}>
 						<Link href="#">Join Us</Link>

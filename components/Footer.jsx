@@ -12,8 +12,8 @@ const Footer = () => {
 				>
 					<img src="/footer_logo.png" width="120px" />
 					<p className="footer_company_detail">
-						India's Largest Student-run Journalism Organisation.
-						Based in New Delhi and Mumbai, since 2020.
+						India&apos;s Largest Student-run Journalism
+						Organisation. Based in New Delhi and Mumbai, since 2020.
 					</p>
 				</div>
 			</div>

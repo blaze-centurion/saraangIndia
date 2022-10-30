@@ -32,10 +32,10 @@ const FoundersProgram = () => {
 			<div className="section">
 				<HighlightedTitle title="Launch your own start-up WITH ZERO RISK FOR FREE" />
 				<p className={styles.content}>
-					<b>Founders' Program</b> will support you in all ways to
-					make sure that your start-up idea reaches it's functioning
-					stage. From finding a founding team to marketing and
-					operations, we will be with you every step of the way so
+					<b>Founders&apos; Program</b> will support you in all ways
+					to make sure that your start-up idea reaches it&apos;s
+					functioning stage. From finding a founding team to marketing
+					and operations, we will be with you every step of the way so
 					that you do not face the risk of failure.
 					<br /> <br />
 					Furthermore,{" "}
@@ -103,8 +103,8 @@ const FoundersProgram = () => {
 						need from Team TSI and any other relevant information.{" "}
 					</li>
 					<li>
-						CV or Resumé of you and your team (if you don't have a
-						CV, write your skill-set, achievements and past
+						CV or Resumé of you and your team (if you don&apos;t
+						have a CV, write your skill-set, achievements and past
 						experience in document & attach it).
 					</li>
 					<li>Social Media Handles</li>

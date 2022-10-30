@@ -35,17 +35,18 @@ const About = () => {
 							speak immediately, while the echoes of wonder, the
 							claims of triumph and the signs of horror are still
 							in the air. And that is what we stand for at The
-							SaarangIndia! We are India's largest student-led
-							journalism organisation with over 200 members and
-							have published 100+ articles. We aim to train young
-							minds as writers or techies to understand how work
-							is done in a professional environment and publish an
-							unbiased and complete overview on controversial
-							topics to our viewers. By interviewing and blogging,
-							we focus on raising awareness about social issues
-							across the globe. We look forward to gaining and
-							providing countless opportunities to students and
-							making a significant change in the society.
+							SaarangIndia! We are India&apos;s largest
+							student-led journalism organisation with over 200
+							members and have published 100+ articles. We aim to
+							train young minds as writers or techies to
+							understand how work is done in a professional
+							environment and publish an unbiased and complete
+							overview on controversial topics to our viewers. By
+							interviewing and blogging, we focus on raising
+							awareness about social issues across the globe. We
+							look forward to gaining and providing countless
+							opportunities to students and making a significant
+							change in the society.
 						</p>
 					</div>
 				</div>
@@ -97,9 +98,10 @@ const About = () => {
 							more than 25 Instagram Influencers, interviewed 3
 							Niche-YouTubers, successfully carried out a monthly
 							news-update video series, launched our merchandise,
-							conducted Delhi's Largest Menstruation Safety Kit
-							Distribution Drive in two cities, posted more than
-							70 articles, 50 reels and 30+ frequent update NEWS.
+							conducted Delhi&apos;s Largest Menstruation Safety
+							Kit Distribution Drive in two cities, posted more
+							than 70 articles, 50 reels and 30+ frequent update
+							NEWS.
 						</p>
 						<h3>2022</h3>
 						<p>
